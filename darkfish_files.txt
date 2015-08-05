@@ -11,6 +11,7 @@ lib/rdoc/generator.rb
 
 
 Rdoc integration
+More changess will be included and updated peridically
 lib/rdoc/options.rb
 lib/rdoc/rdoc.rb
 lib/rdoc/rubygems_hook.rb
