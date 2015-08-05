@@ -1,0 +1,13 @@
+/* START_temporary - remove later on: */
+.navbar-brand > img {
+    height: 25px;
+}
+/* END_temporary - remove later on: */
+
+.navbar {
+    background-color: #b11301;
+}
+
+.navbar .nav > li > a {
+    color: #ffffff;
+}

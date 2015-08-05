@@ -1,0 +1,21 @@
+rdoc darkish files
+
+Main template content
+lib/rdoc/generator/template/darkfish/
+
+Generator setup
+lib/rdoc/generator/darkfish.rb
+lib/rdoc/generator.rb
+
+Rdoc integration
+lib/rdoc/options.rb
+lib/rdoc/rdoc.rb
+lib/rdoc/rubygems_hook.rb
+lib/rdoc/servlet.rb
+
+Tests
+test/test_rdoc_generator_darkfish.rb
+test/test_rdoc_generator_json_index.rb
+test/test_rdoc_options.rb
+test/test_rdoc_rubygems_hook.rb
+test/test_rdoc_servlet.rb
