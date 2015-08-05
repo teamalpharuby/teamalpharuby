@@ -3,7 +3,7 @@ rdoc darkish files
 Main template content
 lib/rdoc/generator/template/darkfish/
 
-Generator setup
+Generator setup files included
 lib/rdoc/generator/darkfish.rb
 lib/rdoc/generator.rb
 
