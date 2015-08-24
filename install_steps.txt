@@ -1,0 +1,51 @@
+RDoc
+======
+
+1. Install hoe and racc gems:
+gem install --user-install hoe racc
+
+2. Clean code tree:
+rake clean
+
+3. Building:
+rake
+
+4. Packaging:
+rake package
+
+5. Locally installing RDoc gem:
+gem install --user-install --local pkg/rdoc-4.2.1.gem
+
+6. Set system path to use the new RDoc binary
+
+7. Call new rdoc 4.2.1 in the source directory to create documentation:
+rdoc
+
+
+Ruby 2.2.3 on Ubuntu 14.04
+============================
+1. Install packages
+sudo apt-get update
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+
+2. Install rbenv and rbenv-gem-rehash
+cd
+git clone git://github.com/sstephenson/rbenv.git .rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+exec $SHELL
+
+git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
+exec $SHELL
+
+git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
+
+3. Instal Ruby 2.2.3:
+rbenv install 2.2.3
+
+4. Set Ruby version globally:
+rbenv global 2.2.3
+
+5. Check version
+ruby -v
