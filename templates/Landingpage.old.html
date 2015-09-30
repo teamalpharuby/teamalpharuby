@@ -9,9 +9,9 @@
     <meta name="author" content="">
     <title></title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" async></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" async></script>
-
 </head>
 <body>
 <div class="container">
@@ -26,13 +26,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+
+                <!--Changes Start 
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/198px-Ruby_logo.svg.png">
+                </a>
+                Changes End -->
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li> <a href="#"><img alt="Brand" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/198px-Ruby_logo.svg.png" height="50px"></a>
-                    </li>
                     <li class="active"><a href="#">Ruby 2.2</a></li>
-                    <li><a href="'/core-2.2.3'">Core API</a></li>
+                    <li><a href="#">Core API</a></li>
                     <li><a href="#">Standard Library</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Languages <span class="caret"></span></a>
@@ -46,9 +50,8 @@
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="./en">en <span class="sr-only">en</span></a></li>
-                    <li class="active"><a href="./jp">jp <span class="sr-only">jp</span></a></li>
-                    n
+                    <li class="active"><a href="./">en <span class="sr-only">(current)</span></a></li>
+                    <li><a href="../navbar-static-top/">jp</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -65,23 +68,22 @@
         <h1>Ruby Documentation</h1>
         <p>Help and documentation for the Ruby programming language.</p>
 
-        <div class="col-sm-4">
-            <form class="form-inline">
-                <div class="input-group">
-                    <input type="text"  class="form-control main-search-field "  size="200" aria-label="..." placeholder="Type to search ...">
-                    <div class="input-group-btn">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-search"></span> <span class="caret"></span></button>
-                        <ul class="dropdown-menu dropdown-menu-right">
-                            <li><a href="#">Search all</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="../table_of_contents.html#pages">Pages</a></li>
-                            <li><a href="#">Classes</a></li>
-                            <li><a href="#">Methods</a></li>
-                        </ul>
-                    </div><!-- /btn-group -->
-                </div><!-- /input-group -->
-            </form>
-        </div>
-    </div> <!-- /container -->
+        <div class="input-group">
+            <input type="text" class="form-control" aria-label="..." placeholder="Type to search ...">
+            <div class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-search"></span> <span class="caret"></span></button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Search all</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Classes</a></li>
+                    <li><a href="#">Methods</a></li>
+                </ul>
+            </div><!-- /btn-group -->
+        </div><!-- /input-group -->
+    </div>
+
+</div> <!-- /container -->
 </body>
+</html>
 </html>
